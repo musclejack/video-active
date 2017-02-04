@@ -1,27 +1,8 @@
 # m-video
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
+cd server
+node app.js
 
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+写得不好，还有一个react版本的，上线的了，由于数据问题，react不放出。    
+这里的pop写得不好，太在意复用性，导致代码很混乱，
+sass编译后重复的问题也没有很好的解决。
