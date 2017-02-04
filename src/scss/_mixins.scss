@@ -1,0 +1,22 @@
+@import "variables";
+@import "prefixer";
+
+@mixin clearfix {
+    content: ' ';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+@mixin inline-block($align: auto) {
+    display: inline-block;
+    vertical-align: $align;
+}
+
+@mixin ellipsis($width: 100%) {
+    width: $width;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import "variables";
+@import "prefixer";
+@import "mixins";
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, section, dt, dd {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html, body {
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: $g-font-family;
+    font-size: $g-font-size;
+    width: 100%;
+    height: 100%;
+    &.over-flow {
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-overflow-scrolling: touch;
+}
+
+a, img {
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+i {
+    font-style: normal;
+    margin: 0 .2rem;
+}
+

@@ -1,0 +1,8 @@
+.lunbo{    
+    animation:lunbo 5s infinite linear;
+}
+@keyframes lunbo {
+    0% {top: 0px;}
+    50% {top: -2rem;}
+    100% {top: -4rem;}
+}

@@ -1,0 +1,11 @@
+@mixin keyframes($a) {
+  @-webkit-keyframes #{$a} {
+    @content;
+  }
+  @-moz-keyframes #{$a} {
+    @content;
+  }
+  @keyframes #{$a} {
+    @content;
+  }
+}
