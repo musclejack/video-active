@@ -1,5 +1,5 @@
 # m-video
-地址 <a href = 'v.iammz.cn'> v.iammz.cn  </a>
+地址 <a href = 'http://v.iammz.cn'> v.iammz.cn  </a>
 写得丑见笑了
 npm run dev
 cd server
