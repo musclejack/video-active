@@ -1,5 +1,6 @@
 # m-video
 地址 <a href = 'http://v.iammz.cn'> v.iammz.cn  </a>
+用移动端打开或者PC按F12吧    
 写得丑见笑了
 npm run dev
 cd server
