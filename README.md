@@ -1,4 +1,6 @@
 # m-video
+地址 v.iammz.cn     
+写得丑见笑了
 npm run dev
 cd server
 node app.js
